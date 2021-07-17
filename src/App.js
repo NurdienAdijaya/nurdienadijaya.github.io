@@ -31,7 +31,7 @@ import CmdCertificate from "./images/Certificate-png/nurd-cmd.png"
 function App() {
   return (
     <Fragment>
-      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+      <Navbar collapseOnSelect expand="md" bg="light" variant="light">
         <Container>
           <Navbar.Brand href="/"><Image
               className="nurd-logo"
@@ -68,12 +68,12 @@ function App() {
       <Card id="about" className="bg-dark text-white">
         <Card.Img src={NurdCoverLarge} alt="Card image" />
         <Card.ImgOverlay>
-        <Row className="h-100 mx-1">
-          <Col className="m-auto">
-            <Card.Title className="h2">
+        <Row className="h-100">
+          <Col xs={7} className="m-auto">
+            <Card.Title className="h1 nurd-title">
               Code, Videograph, and Music
             </Card.Title>
-            <Card.Text className="p">
+            <Card.Text className="h-5 nurd-text">
               Hi, I'm Nurdien Adijaya. A passionate Front End Developer,
               Videography and Musician
               <br/>
@@ -82,7 +82,7 @@ function App() {
             <Card.Text >
             </Card.Text>
           </Col>
-          <Col></Col>
+          <Col xs={5}></Col>
         </Row>              
         </Card.ImgOverlay>
       </Card>
