@@ -25,7 +25,9 @@ export default function NurdHeader() {
               <Nav.Link href="#skills">My Skills</Nav.Link>
               <Nav.Link href="#certificate">Certificate</Nav.Link>
               <NavDropdown title="Portofolio" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#">Portofolio 1</NavDropdown.Item>
+                <NavDropdown.Item href="/simple-card">
+                  Simple Card
+                </NavDropdown.Item>
                 <NavDropdown.Item href="#">Portofolio 2</NavDropdown.Item>
                 <NavDropdown.Item href="/TMDB">
                   The Movie Database
