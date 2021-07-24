@@ -30,7 +30,7 @@ export default function NurdHeader() {
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#">Portofolio 1</NavDropdown.Item>
                 <NavDropdown.Item href="#">Portofolio 2</NavDropdown.Item>
-                <NavDropdown.Item href="/TMDB">
+                <NavDropdown.Item href="/tmdb">
                   The Movie Database
                 </NavDropdown.Item>
                 <NavDropdown.Divider />

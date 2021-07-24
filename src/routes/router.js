@@ -11,7 +11,7 @@ const Routers = () => {
       <Route path="/simple-card">
         <MainPage />
       </Route>
-      <Route path="/TMDB">
+      <Route path="/tmdb">
         <TmdbHomePage />
       </Route>
       <Route exact path="*">
