@@ -8,10 +8,10 @@ const Routers = () => {
       <Route exact path="/">
         <MainPage />
       </Route>
-      <Route exact path="/simple-card">
+      <Route path="/simple-card">
         <MainPage />
       </Route>
-      <Route exact path="/TMDB">
+      <Route path="/TMDB">
         <TmdbHomePage />
       </Route>
       <Route exact path="*">
