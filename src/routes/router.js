@@ -8,6 +8,9 @@ const Routers = () => {
       <Route exact path="/">
         <MainPage />
       </Route>
+      <Route exact path="/simple-card">
+        <MainPage />
+      </Route>
       <Route exact path="/TMDB">
         <TmdbHomePage />
       </Route>
