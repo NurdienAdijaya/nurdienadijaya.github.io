@@ -8,7 +8,7 @@ import CmdCertificate from "../../images/Certificate-png/nurd-cmd.png";
 
 export default function NurdCertificates() {
   return (
-    <div>
+    <div className="body">
       <Container className="text-center my-5">
         <Container className="mb-5">
           <h1 id="certificate">Certificate</h1>
