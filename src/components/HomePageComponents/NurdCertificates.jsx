@@ -5,6 +5,7 @@ import JsCertificate from "../../images/Certificate-png/nurd-js.png";
 import SassCertificate from "../../images/Certificate-png/nurd-sass.png";
 import GitCertificate from "../../images/Certificate-png/nurd-git.png";
 import CmdCertificate from "../../images/Certificate-png/nurd-cmd.png";
+import ReactCertificate from "../../images/Certificate-png/nurd-react.png";
 
 export default function NurdCertificates() {
   return (
@@ -32,22 +33,29 @@ export default function NurdCertificates() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={SassCertificate}
+                src={ReactCertificate}
                 alt="Third slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={GitCertificate}
+                src={SassCertificate}
                 alt="Fourth slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={CmdCertificate}
+                src={GitCertificate}
                 alt="Fifth slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={CmdCertificate}
+                alt="sixth slide"
               />
             </Carousel.Item>
           </Carousel>
