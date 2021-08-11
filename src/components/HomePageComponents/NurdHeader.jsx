@@ -28,8 +28,10 @@ export default function NurdHeader() {
                 <NavDropdown.Item href="/simple-card" target="blank">
                   Simple Card
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#">Portofolio 1</NavDropdown.Item>
-                <NavDropdown.Item href="#">Portofolio 2</NavDropdown.Item>
+                <NavDropdown.Item href="/todo-list" target="blank">
+                  Todo List
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#">Portofolio</NavDropdown.Item>
                 <NavDropdown.Item href="/tmdb" target="blank">
                   The Movie Database
                 </NavDropdown.Item>
